@@ -1,0 +1,70 @@
+#main-container {
+    height: 100%;
+    width: 100%;
+}
+
+.rotate { 
+    /* z-index: 1; */
+    transform: rotate(90deg);
+}
+
+#home-team-container {
+    background-color: blue;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#away-team-container {
+    background-color: red;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.increment-btn {
+    color: white;
+    width: 10%;
+    text-align: center;
+    z-index: 2;
+}
+
+.decrement-btn {
+    color: white;
+    width: 10%;
+    text-align: center;
+    z-index: 2;
+}
+
+.score-container {
+    width: 90%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.score {
+    color: white;
+    font-size: 20em;
+    /* font-weight:500; */
+}
+
+#reset-btn {
+    position: fixed;
+    height: 40px;
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px; /* Negative half of height. */
+    margin-left: -50px; /* Negative half of width. */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-right: 10px;
+}
